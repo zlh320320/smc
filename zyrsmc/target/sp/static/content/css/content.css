@@ -1,0 +1,17 @@
+.main_col{width:100%;}
+.fr{float:right;}
+.fl{float:left;}
+.main_col .lefttree{width: 20%; margin-left: 1%;margin-top: 10px;border: 1px solid #ccc;min-height:700px;}
+.main_col .rightcon{width: 76%;border: 1px solid #ccc;float:right;margin-top: 10px;margin-right:1%;min-height:700px;}
+.page {float:right;margin-right:100px;margin-top:30px;}
+.searchform{margin: 10px 20px;}
+input{height:30px;}
+
+/**新闻编辑框**/
+.edit_layer{width:100%;}
+.edit_layer .form-group{margin-left: 30px;margin-top:30px;}
+.edit_layer .form-group label{width:100px;display:inline-block;font-weight: bold;}
+.edit_layer .form-group input,.edit_layer .form-group select{width:300px;display:inline-block;}
+.edit_layer .form-group .tip{color:red;font-size: 12px;}
+.edit_layer .btn-group a{margin:auto;margin-top:30px;margin-left:200px; float:left;}
+

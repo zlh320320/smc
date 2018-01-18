@@ -1,0 +1,84 @@
+package com.zlh.web.baby.controller;
+
+import java.util.Date;
+import java.util.List;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.github.miemiedev.mybatis.paginator.domain.PageBounds;
+import com.github.miemiedev.mybatis.paginator.domain.PageList;
+import com.zlh.baby.BabyServiceLocator;
+import com.zlh.baby.dto.PictureDTO;
+import com.zlh.baby.dto.XiangCeDTO;
+import com.zlh.baby.service.PictureService;
+import com.zlh.web.front.intercepter.NeedLogin;
+import com.zlh.web.wechat.controller.UserController;
+
+@Controller
+@RequestMapping("/album")
+public class PictureController {
+
+    private static PictureService pictureService = BabyServiceLocator.getPictureService();
+    private static Log            logger         = LogFactory.getLog(UserController.class);
+
+    @RequestMapping(value = "/getXiangceList")
+    @NeedLogin
+    public ModelAndView getXiangceList(@RequestParam(defaultValue = "1")
+    Integer pageNo, @RequestParam(defaultValue = "10")
+    Integer pageSize) {
+        logger.info("to getXiangceList Method...");
+
+        ModelAndView modelAndView = new ModelAndView();
+        PageBounds page = new PageBounds(pageNo, pageSize);
+        List<XiangCeDTO> xiangCeDTOs = pictureService.getXiangCeList(page);
+        PageList<XiangCeDTO> pageList = (PageList<XiangCeDTO>) xiangCeDTOs;
+        modelAndView.addObject("xiangCeDTOs", xiangCeDTOs);
+        modelAndView.addObject("page", pageList.getPaginator());
+        modelAndView.setViewName("/album/albumList");
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "/getPictureList")
+    @NeedLogin
+    public ModelAndView getPictureList(@RequestParam(defaultValue = "1")
+    Integer pageNo, @RequestParam(defaultValue = "12")
+    Integer pageSize, Integer albumId, String title) {
+        logger.info("to getPictureList Method...");
+
+        ModelAndView modelAndView = new ModelAndView();
+        PageBounds page = new PageBounds(pageNo, pageSize);
+        List<PictureDTO> pictureDTOs = pictureService.getPictureList(page, title, albumId);
+        PageList<PictureDTO> pageList = (PageList<PictureDTO>) pictureDTOs;
+        modelAndView.addObject("pictureDTOs", pictureDTOs);
+        modelAndView.addObject("page", pageList.getPaginator());
+        modelAndView.addObject("albumId", albumId);
+        modelAndView.setViewName("/album/pictureList");
+        return modelAndView;
+    }
+    
+    @RequestMapping(value = "/savePicture")
+    @ResponseBody
+    @NeedLogin
+    public String savePicture(PictureDTO pictureDTO){
+        pictureDTO.setCreateDate(new Date());
+        int row=pictureService.createPicture(pictureDTO);
+        if(row>0)
+            return "success";
+        return "error";
+    }
+    
+    @RequestMapping(value = "/showPicture")
+    @NeedLogin
+    public ModelAndView savePicture(String src){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("src", src);
+        modelAndView.setViewName("/album/showPicture");
+        return modelAndView;
+    }
+}

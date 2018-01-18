@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.zlh.cms.dao.ModuleDao" > 
+
+	<sql id="allField">
+		id,module_name
+    </sql>
+    <sql id="allProperties">
+     <trim  suffixOverrides="," >
+    				#{id},
+					#{moduleName},
+		     </trim>
+    </sql>
+    
+    <sql id="tableName">
+      t_cms_module
+    </sql>
+	<select id="getModule" resultType="com.zlh.cms.dto.ModuleDTO">
+		select * from <include refid="tableName"></include>  where id = #id 
+	</select>
+	
+	<select id="getModuleList" resultType="com.zlh.cms.dto.ModuleDTO">
+		select * from <include refid="tableName"></include> 
+	</select>
+	
+	<delete id="delModule">
+	    delete from <include refid="tableName"></include> where id = #id
+	</delete>
+	
+	<insert id="createModule"  useGeneratedKeys="true" keyProperty="id">
+	  <selectKey keyProperty="id" resultType="int" order="AFTER"> 
+		SELECT @@IDENTITY AS id 
+	  </selectKey> 
+		insert into <include refid="tableName"></include>
+		(<include refid="allField"></include>)
+		 values
+		(<include refid="allProperties"></include>)
+	</insert>
+	<update id="updateModule">
+	   update <include refid="tableName"></include> set 
+	<trim  suffixOverrides="," >
+	<if test="moduleName != null  ">
+		module_name=#{moduleName},
+	</if>
+	</trim> where id=#{id}
+	</update>
+  	
+</mapper>   

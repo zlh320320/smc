@@ -1,0 +1,14 @@
+.edit_btn,.search_btn{    padding: 0px 11px;background-color: #1ab394;display: inline-block;
+    height: 35px;line-height: 35px;border-radius: 4%;color: white;cursor:pointer;}
+.del_btn{    padding: 0px 11px;background-color: #d9534f;display: inline-block;
+    height: 35px;line-height: 35px;border-radius: 4%;color: white;cursor:pointer;}
+ .add_btn{    padding: 0px 11px;background-color: #23c6c8;display: inline-block;
+    height: 35px;line-height: 35px;border-radius: 4%;color: white;cursor:pointer;}
+
+.wid_100px{width:100px;}
+.wid_120px{width:120px;}
+.wid_150px{width:150px;}
+.wid_50px{width:5px;}
+.wid_80px{width:80px;}
+a{color: #333333;text-decoration: none;}
+.btn-primary{background-color: #18a689;border-color: #18a689;color: #FFFFFF;}

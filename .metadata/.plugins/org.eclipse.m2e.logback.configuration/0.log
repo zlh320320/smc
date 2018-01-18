@@ -1,0 +1,1175 @@
+2018-01-18 19:45:42,327 [Worker-3] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2018-01-18 19:45:51,635 [Worker-5] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2018-01-18 19:45:52,710 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.8.0/icefaces-1.8.0.jar
+2018-01-18 19:45:53,764 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+2018-01-18 19:45:54,496 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+2018-01-18 19:45:54,832 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2018-01-18 19:45:55,513 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2018-01-18 19:45:55,861 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+2018-01-18 19:45:57,063 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+2018-01-18 19:45:57,534 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+2018-01-18 19:45:58,516 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+2018-01-18 19:45:58,871 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+2018-01-18 19:45:59,811 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+2018-01-18 19:46:00,686 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+2018-01-18 19:46:01,336 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+2018-01-18 19:46:01,673 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2018-01-18 19:46:02,360 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2018-01-18 19:46:02,686 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2018-01-18 19:46:03,629 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2018-01-18 19:46:03,997 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+2018-01-18 19:46:04,732 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+2018-01-18 19:46:05,079 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+2018-01-18 19:46:06,013 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+2018-01-18 19:46:06,156 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:06,157 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:06,565 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
+2018-01-18 19:46:07,279 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
+2018-01-18 19:46:07,629 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+2018-01-18 19:46:08,315 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+2018-01-18 19:46:08,660 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/5/maven-parent-5.pom
+2018-01-18 19:46:09,404 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/5/maven-parent-5.pom
+2018-01-18 19:46:09,746 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+2018-01-18 19:46:10,398 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+2018-01-18 19:46:10,742 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+2018-01-18 19:46:11,380 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+2018-01-18 19:46:11,736 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+2018-01-18 19:46:12,436 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+2018-01-18 19:46:12,802 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+2018-01-18 19:46:13,533 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+2018-01-18 19:46:13,911 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2018-01-18 19:46:15,087 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2018-01-18 19:46:15,423 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+2018-01-18 19:46:16,113 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+2018-01-18 19:46:16,467 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
+2018-01-18 19:46:17,094 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
+2018-01-18 19:46:17,435 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
+2018-01-18 19:46:18,099 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
+2018-01-18 19:46:18,756 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
+2018-01-18 19:46:19,416 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
+2018-01-18 19:46:19,781 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+2018-01-18 19:46:21,046 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+2018-01-18 19:46:21,964 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+2018-01-18 19:46:22,627 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+2018-01-18 19:46:22,983 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+2018-01-18 19:46:23,614 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+2018-01-18 19:46:23,963 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+2018-01-18 19:46:24,771 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+2018-01-18 19:46:25,190 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+2018-01-18 19:46:25,835 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+2018-01-18 19:46:26,176 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+2018-01-18 19:46:26,886 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+2018-01-18 19:46:27,245 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+2018-01-18 19:46:27,873 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+2018-01-18 19:46:28,229 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+2018-01-18 19:46:29,816 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+2018-01-18 19:46:30,535 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+2018-01-18 19:46:31,721 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+2018-01-18 19:46:32,435 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2018-01-18 19:46:33,196 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2018-01-18 19:46:33,531 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+2018-01-18 19:46:35,367 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+2018-01-18 19:46:35,616 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2018-01-18 19:46:36,398 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+2018-01-18 19:46:36,478 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2018-01-18 19:46:37,164 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+2018-01-18 19:46:37,340 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+2018-01-18 19:46:37,436 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+2018-01-18 19:46:37,982 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+2018-01-18 19:46:38,339 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+2018-01-18 19:46:38,869 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+2018-01-18 19:46:39,142 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+2018-01-18 19:46:39,469 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+2018-01-18 19:46:39,854 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+2018-01-18 19:46:40,297 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.5/maven-jar-plugin-2.5.jar
+2018-01-18 19:46:40,360 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.2/icefaces-1.7.2.jar
+2018-01-18 19:46:40,380 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:40,381 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:42,239 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.5/maven-jar-plugin-2.5.jar
+2018-01-18 19:46:42,363 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.1/icefaces-1.7.1.jar
+2018-01-18 19:46:42,437 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:42,438 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:42,864 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-01-18 19:46:43,369 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.0/icefaces-1.7.0.jar
+2018-01-18 19:46:43,378 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:43,378 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:44,298 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.6.2/icefaces-1.6.2.jar
+2018-01-18 19:46:44,308 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:44,309 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:46,912 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.6.1/icefaces-1.6.1.jar
+2018-01-18 19:46:46,923 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:46,923 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:48,260 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-01-18 19:46:48,523 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 19:46:48,526 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 19:46:48,564 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icepush/icepush/2.0.2/icepush-2.0.2.jar
+2018-01-18 19:46:48,580 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:48,581 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:48,609 [Worker-0] ERROR o.e.m.e.x.i.MarkerLocationService - Marker id 198 not found.
+org.eclipse.core.internal.resources.ResourceException: Marker id 198 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57) ~[org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237) ~[org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223) ~[org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.findLocationForMarker(MarkerLocationService.java:107) ~[na:na]
+	at org.eclipse.m2e.core.internal.markers.MarkerUtils.decorateMarker(MarkerUtils.java:48) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.addErrorMarker(MavenMarkerManager.java:311) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.addErrorMarkers(MavenMarkerManager.java:298) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.setupLifecycleMapping(ProjectRegistryManager.java:588) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:497) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$3.call(ProjectRegistryManager.java:476) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$3.call(ProjectRegistryManager.java:1) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:480) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:291) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:156) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:91) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:202) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 19:46:49,032 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.0.RELEASE/spring-core-4.1.0.RELEASE.pom
+2018-01-18 19:46:49,405 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.8.0/icefaces-comps-1.8.0.jar
+2018-01-18 19:46:49,422 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:49,423 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:49,684 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.0.RELEASE/spring-core-4.1.0.RELEASE.pom
+2018-01-18 19:46:50,160 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.2/icefaces-comps-1.7.2.jar
+2018-01-18 19:46:50,169 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:50,169 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:50,459 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2018-01-18 19:46:50,966 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.1/icefaces-comps-1.7.1.jar
+2018-01-18 19:46:50,974 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:50,974 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:51,726 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.0/icefaces-comps-1.7.0.jar
+2018-01-18 19:46:51,735 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:51,735 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:53,485 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2018-01-18 19:46:53,743 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.6.2/icefaces-comps-1.6.2.jar
+2018-01-18 19:46:53,759 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:53,760 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:53,851 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2018-01-18 19:46:54,552 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.6.1/icefaces-comps-1.6.1.jar
+2018-01-18 19:46:54,566 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:54,566 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:55,243 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.8.0/icefaces-facelets-1.8.0.jar
+2018-01-18 19:46:55,244 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2018-01-18 19:46:55,289 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:55,290 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:55,573 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+2018-01-18 19:46:56,105 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.2/icefaces-facelets-1.7.2.jar
+2018-01-18 19:46:56,129 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:56,129 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:56,308 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+2018-01-18 19:46:56,663 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.1/icefaces-facelets-1.7.1.jar
+2018-01-18 19:46:56,676 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:56,677 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:56,891 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.0.RELEASE/spring-web-4.1.0.RELEASE.pom
+2018-01-18 19:46:57,403 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.0.RELEASE/spring-web-4.1.0.RELEASE.pom
+2018-01-18 19:46:57,728 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.0.RELEASE/spring-aop-4.1.0.RELEASE.pom
+2018-01-18 19:46:58,223 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.0.RELEASE/spring-aop-4.1.0.RELEASE.pom
+2018-01-18 19:46:58,288 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.0/icefaces-facelets-1.7.0.jar
+2018-01-18 19:46:58,297 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:58,297 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:58,542 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.0.RELEASE/spring-beans-4.1.0.RELEASE.pom
+2018-01-18 19:46:58,978 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.6.2/icefaces-facelets-1.6.2.jar
+2018-01-18 19:46:58,992 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:58,992 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:59,041 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.0.RELEASE/spring-beans-4.1.0.RELEASE.pom
+2018-01-18 19:46:59,366 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.0.RELEASE/spring-context-4.1.0.RELEASE.pom
+2018-01-18 19:46:59,743 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.6.1/icefaces-facelets-1.6.1.jar
+2018-01-18 19:46:59,757 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:46:59,758 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:46:59,935 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.0.RELEASE/spring-context-4.1.0.RELEASE.pom
+2018-01-18 19:47:00,208 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.0.RELEASE/spring-expression-4.1.0.RELEASE.pom
+2018-01-18 19:47:00,721 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.0.RELEASE/spring-expression-4.1.0.RELEASE.pom
+2018-01-18 19:47:00,989 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-oxm/4.1.0.RELEASE/spring-oxm-4.1.0.RELEASE.pom
+2018-01-18 19:47:01,509 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-oxm/4.1.0.RELEASE/spring-oxm-4.1.0.RELEASE.pom
+2018-01-18 19:47:01,784 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.1.0.RELEASE/spring-tx-4.1.0.RELEASE.pom
+2018-01-18 19:47:02,297 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.1.0.RELEASE/spring-tx-4.1.0.RELEASE.pom
+2018-01-18 19:47:02,676 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.pom
+2018-01-18 19:47:03,312 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.pom
+2018-01-18 19:47:03,594 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context-support/4.1.0.RELEASE/spring-context-support-4.1.0.RELEASE.pom
+2018-01-18 19:47:04,178 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context-support/4.1.0.RELEASE/spring-context-support-4.1.0.RELEASE.pom
+2018-01-18 19:47:04,456 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.0.RELEASE/spring-test-4.1.0.RELEASE.pom
+2018-01-18 19:47:04,969 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.0.RELEASE/spring-test-4.1.0.RELEASE.pom
+2018-01-18 19:47:05,255 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.2.4/mybatis-3.2.4.pom
+2018-01-18 19:47:06,245 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.2.4/mybatis-3.2.4.pom
+2018-01-18 19:47:06,527 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/19/mybatis-parent-19.pom
+2018-01-18 19:47:06,741 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/jexcelapi/jxl/2.6.8/jxl-2.6.8.jar
+2018-01-18 19:47:06,758 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:06,758 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:07,460 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces-mobi/1.3.0/icefaces-mobi-1.3.0.jar
+2018-01-18 19:47:07,478 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:07,479 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:07,532 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/19/mybatis-parent-19.pom
+2018-01-18 19:47:07,791 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.pom
+2018-01-18 19:47:08,199 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icepush/icepush/3.0.0/icepush-3.0.0.jar
+2018-01-18 19:47:08,214 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:08,214 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:08,442 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.pom
+2018-01-18 19:47:08,703 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/20/mybatis-parent-20.pom
+2018-01-18 19:47:08,914 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/activation/activation/1.0.2/activation-1.0.2.jar
+2018-01-18 19:47:08,922 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:08,923 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:09,706 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/mail/mail/1.3.1/mail-1.3.1.jar
+2018-01-18 19:47:09,716 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:09,717 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:09,751 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/20/mybatis-parent-20.pom
+2018-01-18 19:47:10,033 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15.pom
+2018-01-18 19:47:10,507 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/namespace/1.0.1/namespace-1.0.1.jar
+2018-01-18 19:47:10,517 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:10,517 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:10,677 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15.pom
+2018-01-18 19:47:10,946 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-01-18 19:47:11,325 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/sql/jdbc-stdext/2.0/jdbc-stdext-2.0.jar
+2018-01-18 19:47:11,333 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:11,333 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:11,604 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-01-18 19:47:11,882 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.0/mybatis-3.1.0.pom
+2018-01-18 19:47:12,228 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/jts/jts/1.0/jts-1.0.jar
+2018-01-18 19:47:12,250 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:12,251 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:12,561 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.1.0/mybatis-3.1.0.pom
+2018-01-18 19:47:12,842 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/14/mybatis-parent-14.pom
+2018-01-18 19:47:13,861 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/14/mybatis-parent-14.pom
+2018-01-18 19:47:14,164 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/el-api/el-api/1.0/el-api-1.0.jar
+2018-01-18 19:47:14,178 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:14,178 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:14,298 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.pom
+2018-01-18 19:47:15,249 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/el-ri/el-ri/1.0/el-ri-1.0.jar
+2018-01-18 19:47:15,256 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:15,257 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:16,016 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/faces/jsf-api/2.0.3/jsf-api-2.0.3.jar
+2018-01-18 19:47:16,030 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:16,030 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:16,307 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.pom
+2018-01-18 19:47:16,608 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2018-01-18 19:47:16,910 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/faces/jsf-impl/2.0.3/jsf-impl-2.0.3.jar
+2018-01-18 19:47:16,924 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:16,925 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:17,263 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2018-01-18 19:47:17,563 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2018-01-18 19:47:18,141 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2018-01-18 19:47:18,454 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2018-01-18 19:47:18,465 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/cache/jbosscache-core/3.1.0/jbosscache-core-3.1.0.jar
+2018-01-18 19:47:18,479 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:18,480 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:18,964 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2018-01-18 19:47:19,283 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/resource/connector/1.0/connector-1.0.jar
+2018-01-18 19:47:19,303 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:19,304 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:19,411 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.pom
+2018-01-18 19:47:19,997 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/security/jacc/1.0/jacc-1.0.jar
+2018-01-18 19:47:20,013 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:20,013 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:20,109 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.pom
+2018-01-18 19:47:20,428 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/11/oss-parent-11.pom
+2018-01-18 19:47:20,940 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/security/jaas/1.0.01/jaas-1.0.01.jar
+2018-01-18 19:47:20,949 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:20,949 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:21,744 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar
+2018-01-18 19:47:21,771 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:21,772 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:22,517 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/11/oss-parent-11.pom
+2018-01-18 19:47:22,538 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javassist/javassist/3.9.0/javassist-3.9.0.jar
+2018-01-18 19:47:22,566 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:22,567 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:22,799 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.pom
+2018-01-18 19:47:23,389 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.pom
+2018-01-18 19:47:23,546 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate/3.3.2/hibernate-3.3.2.jar
+2018-01-18 19:47:23,564 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:23,565 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:23,691 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/10/oss-parent-10.pom
+2018-01-18 19:47:24,306 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/persistence/javax.persistence/2.0.1/javax.persistence-2.0.1.jar
+2018-01-18 19:47:24,318 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:24,320 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:25,037 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink/2.1/eclipselink-2.1.jar
+2018-01-18 19:47:25,047 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:25,048 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:25,467 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/10/oss-parent-10.pom
+2018-01-18 19:47:25,751 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.pom
+2018-01-18 19:47:25,854 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink-jpa-modelgen/2.1/eclipselink-jpa-modelgen-2.1.jar
+2018-01-18 19:47:25,865 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:25,866 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:26,623 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink-jpa-modelgen/2.5.1/eclipselink-jpa-modelgen-2.5.1.jar
+2018-01-18 19:47:26,636 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:26,637 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:27,305 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/jexcelapi/jxl/2.6.9/jxl-2.6.9.jar
+2018-01-18 19:47:27,318 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:27,318 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:27,615 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.pom
+2018-01-18 19:47:28,004 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.6/jackson-mapper-asl-1.5.6.pom
+2018-01-18 19:47:28,145 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/jamonapi/jamon/2.7/jamon-2.7.jar
+2018-01-18 19:47:28,160 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:28,161 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:28,846 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/ow2/easybeans/quartz/1.6.1/quartz-1.6.1.jar
+2018-01-18 19:47:28,859 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:28,859 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:29,268 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.6/jackson-mapper-asl-1.5.6.pom
+2018-01-18 19:47:29,540 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.6/jackson-core-asl-1.5.6.pom
+2018-01-18 19:47:29,578 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/javaconfig/spring-javaconfig/1.0.0.m4/spring-javaconfig-1.0.0.m4.jar
+2018-01-18 19:47:29,594 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:29,595 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:30,120 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.6/jackson-core-asl-1.5.6.pom
+2018-01-18 19:47:30,402 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-lgpl/1.5.6/jackson-mapper-lgpl-1.5.6.pom
+2018-01-18 19:47:30,422 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/jmx/jmxri/1.2.1/jmxri-1.2.1.jar
+2018-01-18 19:47:30,432 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:30,433 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:31,086 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-lgpl/1.5.6/jackson-mapper-lgpl-1.5.6.pom
+2018-01-18 19:47:31,222 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/management/jmxremote/1.0.1_04/jmxremote-1.0.1_04.jar
+2018-01-18 19:47:31,231 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:31,231 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:31,345 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-lgpl/1.5.6/jackson-core-lgpl-1.5.6.pom
+2018-01-18 19:47:31,923 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-lgpl/1.5.6/jackson-core-lgpl-1.5.6.pom
+2018-01-18 19:47:32,007 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/management/jmxremote_optional/1.0.1_04/jmxremote_optional-1.0.1_04.jar
+2018-01-18 19:47:32,081 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:32,082 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:32,197 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4.pom
+2018-01-18 19:47:32,818 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/management/jmxri/1.2.1/jmxri-1.2.1.jar
+2018-01-18 19:47:32,834 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:32,835 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:33,211 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4.pom
+2018-01-18 19:47:33,528 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.pom
+2018-01-18 19:47:33,555 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/jdo/jdo/1.0.1/jdo-1.0.1.jar
+2018-01-18 19:47:33,567 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:33,568 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:34,099 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.pom
+2018-01-18 19:47:34,272 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/bea/wlplatform/commonj-twm/1.1/commonj-twm-1.1.jar
+2018-01-18 19:47:34,285 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:34,285 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:34,360 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+2018-01-18 19:47:34,873 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+2018-01-18 19:47:35,133 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+2018-01-18 19:47:35,141 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/oracle/toplink/toplink/10.1.3/toplink-10.1.3.jar
+2018-01-18 19:47:35,149 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:35,150 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:35,917 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/groovy/1.0/groovy-1.0.jar
+2018-01-18 19:47:35,933 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+2018-01-18 19:47:35,941 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:35,941 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:36,215 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.pom
+2018-01-18 19:47:36,623 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.core/3.0.5.RELEASE/org.springframework.security.core-3.0.5.RELEASE.jar
+2018-01-18 19:47:36,637 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:36,638 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:36,800 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.pom
+2018-01-18 19:47:37,061 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/httpcomponents-client-4.3.6.pom
+2018-01-18 19:47:37,310 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.web/3.0.5.RELEASE/org.springframework.security.web-3.0.5.RELEASE.jar
+2018-01-18 19:47:37,327 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:37,328 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:38,158 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/httpcomponents-client-4.3.6.pom
+2018-01-18 19:47:38,183 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.config/3.0.5.RELEASE/org.springframework.security.config-3.0.5.RELEASE.jar
+2018-01-18 19:47:38,200 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:38,201 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:38,442 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+2018-01-18 19:47:38,965 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.ldap/3.0.5.RELEASE/org.springframework.security.ldap-3.0.5.RELEASE.jar
+2018-01-18 19:47:38,978 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:38,979 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:39,685 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.taglibs/3.0.5.RELEASE/org.springframework.security.taglibs-3.0.5.RELEASE.jar
+2018-01-18 19:47:39,698 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:39,699 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:39,974 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+2018-01-18 19:47:40,318 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom
+2018-01-18 19:47:40,455 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/bea/commonj/com.springsource.commonj/1.1.0/com.springsource.commonj-1.1.0.jar
+2018-01-18 19:47:40,464 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:40,464 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:40,938 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom
+2018-01-18 19:47:41,218 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom
+2018-01-18 19:47:41,312 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/opensymphony/quartz/com.springsource.org.quartz/1.6.2/com.springsource.org.quartz-1.6.2.jar
+2018-01-18 19:47:41,326 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:41,326 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:41,818 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom
+2018-01-18 19:47:42,072 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/jdo/jdo2-api/2.1.0/jdo2-api-2.1.0.jar
+2018-01-18 19:47:42,082 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:42,082 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:42,120 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/httpcomponents-core-4.3.3.pom
+2018-01-18 19:47:42,830 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/caucho/com.springsource.com.caucho/3.2.1/com.springsource.com.caucho-3.2.1.jar
+2018-01-18 19:47:42,857 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:42,858 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:42,933 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/httpcomponents-core-4.3.3.pom
+2018-01-18 19:47:43,210 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+2018-01-18 19:47:43,769 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/com.springsource.org.codehaus.jackson.mapper/1.0.0/com.springsource.org.codehaus.jackson.mapper-1.0.0.jar
+2018-01-18 19:47:43,778 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:43,779 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:43,973 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+2018-01-18 19:47:44,218 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/junit/com.springsource.org.junit/4.7.0/com.springsource.org.junit-4.7.0.jar
+2018-01-18 19:47:44,234 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:44,235 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:44,483 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+2018-01-18 19:47:45,033 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/inject/com.springsource.javax.inject/1.0.0/com.springsource.javax.inject-1.0.0.jar
+2018-01-18 19:47:45,048 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:45,049 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:45,724 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/com.springsource.org.apache.commons.lang/2.4.0/com.springsource.org.apache.commons.lang-2.4.0.jar
+2018-01-18 19:47:45,734 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:45,734 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:46,436 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/jdmk/jmxtools/1.2.1/jmxtools-1.2.1.jar
+2018-01-18 19:47:46,450 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:46,451 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:46,655 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+2018-01-18 19:47:46,995 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+2018-01-18 19:47:47,144 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.6.8.RELEASE/aspectjweaver-1.6.8.RELEASE.jar
+2018-01-18 19:47:47,160 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:47,161 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:47,851 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/code/guice/guice/2.0/guice-2.0.jar
+2018-01-18 19:47:47,868 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:47,869 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:48,589 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/jdo/jdori/1.0.1/jdori-1.0.1.jar
+2018-01-18 19:47:48,757 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:48,758 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:48,993 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+2018-01-18 19:47:49,273 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.pom
+2018-01-18 19:47:49,486 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/jws/jsr181/1.0/jsr181-1.0.jar
+2018-01-18 19:47:49,500 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:49,501 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:49,861 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.pom
+2018-01-18 19:47:50,162 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/jaxr-api/1.0_03/jaxr-api-1.0_03.jar
+2018-01-18 19:47:50,177 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:50,178 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:50,687 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/alibaba/druid/1.0.12/druid-1.0.12.pom
+2018-01-18 19:47:50,848 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink/1.0.2/eclipselink-1.0.2.jar
+2018-01-18 19:47:50,867 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:50,868 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:51,603 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/persistence/javax.persistence/1.0.0/javax.persistence-1.0.0.jar
+2018-01-18 19:47:51,619 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:51,619 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:52,042 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/alibaba/druid/1.0.12/druid-1.0.12.pom
+2018-01-18 19:47:52,908 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/jms/jms/1.1/jms-1.1.jar
+2018-01-18 19:47:52,916 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:52,916 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:53,443 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/pluto-taglib/1.0.1/pluto-taglib-1.0.1.jar
+2018-01-18 19:47:53,737 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2018-01-18 19:47:54,274 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2018-01-18 19:47:54,316 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:47:54,317 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:47:54,721 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/pluto-taglib/2.0/pluto-taglib-2.0.jar
+2018-01-18 19:47:55,284 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+2018-01-18 19:47:56,302 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+2018-01-18 19:47:56,640 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+2018-01-18 19:47:57,240 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+2018-01-18 19:47:57,571 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
+2018-01-18 19:47:58,194 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
+2018-01-18 19:47:58,554 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom
+2018-01-18 19:47:59,321 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom
+2018-01-18 19:47:59,645 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+2018-01-18 19:48:00,227 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+2018-01-18 19:48:00,559 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+2018-01-18 19:48:02,331 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+2018-01-18 19:48:02,672 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
+2018-01-18 19:48:03,261 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
+2018-01-18 19:48:03,582 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+2018-01-18 19:48:04,180 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+2018-01-18 19:48:04,906 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom
+2018-01-18 19:48:05,545 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom
+2018-01-18 19:48:05,868 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+2018-01-18 19:48:07,073 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+2018-01-18 19:48:07,398 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom
+2018-01-18 19:48:08,023 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom
+2018-01-18 19:48:08,346 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom
+2018-01-18 19:48:09,050 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom
+2018-01-18 19:48:09,571 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+2018-01-18 19:48:10,324 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+2018-01-18 19:48:10,682 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+2018-01-18 19:48:12,064 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+2018-01-18 19:48:12,381 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2018-01-18 19:48:13,854 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2018-01-18 19:48:14,184 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2018-01-18 19:48:15,096 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2018-01-18 19:48:15,482 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom
+2018-01-18 19:48:16,221 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom
+2018-01-18 19:48:16,551 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+2018-01-18 19:48:17,464 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+2018-01-18 19:48:17,804 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom
+2018-01-18 19:48:18,442 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom
+2018-01-18 19:48:18,833 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom
+2018-01-18 19:48:19,617 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom
+2018-01-18 19:48:19,932 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom
+2018-01-18 19:48:20,642 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom
+2018-01-18 19:48:20,955 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/10/spice-parent-10.pom
+2018-01-18 19:48:21,680 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/10/spice-parent-10.pom
+2018-01-18 19:48:21,998 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/3/forge-parent-3.pom
+2018-01-18 19:48:22,762 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/3/forge-parent-3.pom
+2018-01-18 19:48:23,071 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+2018-01-18 19:48:23,922 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+2018-01-18 19:48:24,646 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+2018-01-18 19:48:25,237 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+2018-01-18 19:48:25,590 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+2018-01-18 19:48:26,231 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+2018-01-18 19:48:26,566 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+2018-01-18 19:48:27,852 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+2018-01-18 19:48:27,874 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:27,875 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:28,472 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.2.0/chartengineapi-2.2.0.jar
+2018-01-18 19:48:28,811 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar
+2018-01-18 19:48:30,232 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar
+2018-01-18 19:48:30,505 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+2018-01-18 19:48:31,365 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+2018-01-18 19:48:31,635 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+2018-01-18 19:48:33,642 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+2018-01-18 19:48:33,907 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+2018-01-18 19:48:34,661 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+2018-01-18 19:48:34,912 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar
+2018-01-18 19:48:40,419 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar
+2018-01-18 19:48:40,932 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2018-01-18 19:48:42,543 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2018-01-18 19:48:42,785 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar
+2018-01-18 19:48:43,612 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar
+2018-01-18 19:48:43,857 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
+2018-01-18 19:48:46,200 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
+2018-01-18 19:48:47,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:47,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:47,945 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 19:48:47,950 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 19:48:48,436 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.2.0/coreapi-2.2.0.jar
+2018-01-18 19:48:48,452 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:48,452 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:48,715 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+2018-01-18 19:48:49,150 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.2.0/dataadapterapi-2.2.0.jar
+2018-01-18 19:48:49,159 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:49,159 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:49,880 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.2.0/dteapi-2.2.0.jar
+2018-01-18 19:48:49,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:49,915 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:50,134 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+2018-01-18 19:48:50,486 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.2.0/engineapi-2.2.0.jar
+2018-01-18 19:48:50,498 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:50,498 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:50,514 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:0.0.1-SNAPSHOT @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 19:48:51,274 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.2.0/modelapi-2.2.0.jar
+2018-01-18 19:48:51,669 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+2018-01-18 19:48:52,622 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+2018-01-18 19:48:52,722 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:52,722 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:52,746 [Worker-0] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+org.eclipse.m2e.wtp.MarkedException: Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:102) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:74) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:478) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:471) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:251) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:498) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:495) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createSimpleProject(ProjectConfigurationManager.java:668) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$4.doCreateMavenProjects(MavenProjectWizard.java:248) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstactCreateMavenProjectJob$1.doCreateMavenProjects(AbstactCreateMavenProjectJob.java:46) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstactCreateMavenProjectJob.runInWorkspace(AbstactCreateMavenProjectJob.java:50) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 19:48:53,328 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.2.0/scriptapi-2.2.0.jar
+2018-01-18 19:48:53,344 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:53,345 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:53,717 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:0.0.1-SNAPSHOT @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 19:48:54,091 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-18 19:48:54,093 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 19:48:54,095 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-18 19:48:54,096 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 19:48:54,187 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 19:48:54,243 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.2.0/viewservlets-2.2.0.jar
+2018-01-18 19:48:54,254 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:54,255 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:55,031 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/flute/1.0/flute-1.0.jar
+2018-01-18 19:48:55,042 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:55,042 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:55,993 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.common/2.2.1/org.eclipse.emf.common-2.2.1.jar
+2018-01-18 19:48:56,011 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:56,012 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:56,972 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore/2.2.2/org.eclipse.emf.ecore-2.2.2.jar
+2018-01-18 19:48:56,985 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:56,985 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:57,948 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore.xmi/2.2.2/org.eclipse.emf.ecore.xmi-2.2.2.jar
+2018-01-18 19:48:57,959 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:57,960 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:58,718 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.3.0/chartengineapi-2.3.0.jar
+2018-01-18 19:48:58,731 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:58,732 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:48:59,538 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.3.0/coreapi-2.3.0.jar
+2018-01-18 19:48:59,552 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:48:59,552 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:00,243 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.3.0/dataadapterapi-2.3.0.jar
+2018-01-18 19:49:00,257 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:00,258 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:01,451 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.3.0/dteapi-2.3.0.jar
+2018-01-18 19:49:01,460 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:01,460 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:02,139 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.3.0/engineapi-2.3.0.jar
+2018-01-18 19:49:02,146 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:02,146 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:02,843 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.3.0/modelapi-2.3.0.jar
+2018-01-18 19:49:02,854 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:02,855 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:03,631 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.3.0/scriptapi-2.3.0.jar
+2018-01-18 19:49:03,639 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:03,640 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:04,307 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.3.0/viewservlets-2.3.0.jar
+2018-01-18 19:49:04,323 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:04,323 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:05,036 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/crosstabcoreapi/2.3.0/crosstabcoreapi-2.3.0.jar
+2018-01-18 19:49:05,052 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:05,052 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:05,736 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataaggregationapi/2.3.0/dataaggregationapi-2.3.0.jar
+2018-01-18 19:49:05,747 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:05,748 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:07,215 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/modelodaapi/2.3.0/modelodaapi-2.3.0.jar
+2018-01-18 19:49:07,229 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:07,230 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:08,124 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/odadesignapi/2.3.0/odadesignapi-2.3.0.jar
+2018-01-18 19:49:08,138 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:08,139 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:08,924 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataextraction/2.3.0/dataextraction-2.3.0.jar
+2018-01-18 19:49:08,937 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:08,937 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:09,613 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.common/2.4.0/org.eclipse.emf.common-2.4.0.jar
+2018-01-18 19:49:09,628 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:09,629 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:10,374 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore/2.4.0/org.eclipse.emf.ecore-2.4.0.jar
+2018-01-18 19:49:10,382 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:10,382 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:11,149 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore.xmi/2.4.0/org.eclipse.emf.ecore.xmi-2.4.0.jar
+2018-01-18 19:49:11,159 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:11,160 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:11,875 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.5.0/chartengineapi-2.5.0.jar
+2018-01-18 19:49:11,885 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:11,885 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:12,585 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/chartitemapi/2.5.0/chartitemapi-2.5.0.jar
+2018-01-18 19:49:12,596 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:12,596 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:13,954 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.5.0/coreapi-2.5.0.jar
+2018-01-18 19:49:13,966 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:13,966 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:14,891 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.5.0/dataadapterapi-2.5.0.jar
+2018-01-18 19:49:14,906 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:14,906 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:15,687 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.5.0/dteapi-2.5.0.jar
+2018-01-18 19:49:15,708 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:15,708 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:16,395 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.5.0/engineapi-2.5.0.jar
+2018-01-18 19:49:16,403 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:16,403 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:17,099 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.5.0/modelapi-2.5.0.jar
+2018-01-18 19:49:17,111 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:17,111 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:17,824 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.5.0/scriptapi-2.5.0.jar
+2018-01-18 19:49:17,837 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:17,837 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:18,643 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.5.0/viewservlets-2.5.0.jar
+2018-01-18 19:49:18,650 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:18,651 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:19,588 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/crosstabcoreapi/2.5.0/crosstabcoreapi-2.5.0.jar
+2018-01-18 19:49:19,605 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:19,605 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:20,406 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataaggregationapi/2.5.0/dataaggregationapi-2.5.0.jar
+2018-01-18 19:49:20,428 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:20,428 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:21,190 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/modelodaapi/2.5.0/modelodaapi-2.5.0.jar
+2018-01-18 19:49:21,251 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:21,251 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:22,029 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/odadesignapi/2.5.0/odadesignapi-2.5.0.jar
+2018-01-18 19:49:22,037 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:22,038 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:22,898 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataextraction/2.5.0/dataextraction-2.5.0.jar
+2018-01-18 19:49:22,913 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:22,913 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:23,732 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/emitterconfig/2.5.0/emitterconfig-2.5.0.jar
+2018-01-18 19:49:23,743 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:23,743 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:24,561 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.5.2/chartengineapi-2.5.2.jar
+2018-01-18 19:49:24,570 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:24,570 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:25,346 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/chartitemapi/2.5.2/chartitemapi-2.5.2.jar
+2018-01-18 19:49:25,357 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:25,357 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:26,092 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.5.2/coreapi-2.5.2.jar
+2018-01-18 19:49:26,105 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:26,106 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:27,863 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.5.2/dataadapterapi-2.5.2.jar
+2018-01-18 19:49:27,875 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:27,876 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:28,574 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.5.2/dteapi-2.5.2.jar
+2018-01-18 19:49:28,586 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:28,586 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:29,256 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.5.2/engineapi-2.5.2.jar
+2018-01-18 19:49:29,270 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:29,271 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:30,076 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.5.2/modelapi-2.5.2.jar
+2018-01-18 19:49:30,087 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:30,088 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:30,947 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.5.2/scriptapi-2.5.2.jar
+2018-01-18 19:49:30,959 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:30,959 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:31,717 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.5.2/viewservlets-2.5.2.jar
+2018-01-18 19:49:31,730 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:31,730 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:32,696 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/crosstabcoreapi/2.5.2/crosstabcoreapi-2.5.2.jar
+2018-01-18 19:49:32,790 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:32,790 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:33,448 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataaggregationapi/2.5.2/dataaggregationapi-2.5.2.jar
+2018-01-18 19:49:33,456 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:33,457 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:34,146 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/modelodaapi/2.5.2/modelodaapi-2.5.2.jar
+2018-01-18 19:49:34,176 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:34,177 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:35,026 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/odadesignapi/2.5.2/odadesignapi-2.5.2.jar
+2018-01-18 19:49:35,047 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:35,047 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:35,557 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 19:49:35,567 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 19:49:35,570 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 19:49:35,570 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 19:49:35,677 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.wx:sp:1.0.0 @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 19:49:35,714 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/dataextraction/2.5.2/dataextraction-2.5.2.jar
+2018-01-18 19:49:35,722 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:35,723 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:36,306 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/zlh/baby-biz/1.0.0/baby-biz-1.0.0.pom
+2018-01-18 19:49:36,314 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.zlh:baby-biz:jar:1.0.0 is missing, no dependency information available
+2018-01-18 19:49:36,973 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/zlh/wx/wx-biz/1.0.0/wx-biz-1.0.0.pom
+2018-01-18 19:49:36,977 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.zlh.wx:wx-biz:jar:1.0.0 is missing, no dependency information available
+2018-01-18 19:49:37,631 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse-reports/emitterconfig/2.5.2/emitterconfig-2.5.2.jar
+2018-01-18 19:49:37,645 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:37,645 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:37,682 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/zlh/exam/exam-biz/1.0.0/exam-biz-1.0.0.pom
+2018-01-18 19:49:37,688 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.zlh.exam:exam-biz:jar:1.0.0 is missing, no dependency information available
+2018-01-18 19:49:38,551 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/zlh/wx/wx-cache/1.0.0/wx-cache-1.0.0.pom
+2018-01-18 19:49:38,557 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.zlh.wx:wx-cache:jar:1.0.0 is missing, no dependency information available
+2018-01-18 19:49:39,081 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.0.RELEASE/spring-webmvc-4.1.0.RELEASE.pom
+2018-01-18 19:49:39,654 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.0.RELEASE/spring-webmvc-4.1.0.RELEASE.pom
+2018-01-18 19:49:39,925 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2018-01-18 19:49:40,454 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2018-01-18 19:49:40,773 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/jsp/jstl/jstl-api/1.2/jstl-api-1.2.pom
+2018-01-18 19:49:41,338 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/jsp/jstl/jstl-api/1.2/jstl-api-1.2.pom
+2018-01-18 19:49:41,502 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.common/2.5.0/org.eclipse.emf.common-2.5.0.jar
+2018-01-18 19:49:41,519 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:41,520 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:41,627 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/web/jstl/1.2/jstl-1.2.pom
+2018-01-18 19:49:42,160 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/web/jstl/1.2/jstl-1.2.pom
+2018-01-18 19:49:42,195 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore/2.5.0/org.eclipse.emf.ecore-2.5.0.jar
+2018-01-18 19:49:42,207 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:42,207 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:42,528 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2018-01-18 19:49:43,291 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2018-01-18 19:49:43,378 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore.xmi/2.5.0/org.eclipse.emf.ecore.xmi-2.5.0.jar
+2018-01-18 19:49:43,395 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:43,396 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:43,689 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2018-01-18 19:49:44,210 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-multipart/1.0.3.1/jersey-multipart-1.0.3.1.jar
+2018-01-18 19:49:44,217 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2018-01-18 19:49:44,225 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:44,226 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:44,515 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.pom
+2018-01-18 19:49:44,949 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-multipart/1.4/jersey-multipart-1.4.jar
+2018-01-18 19:49:44,964 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:44,965 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:45,052 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.pom
+2018-01-18 19:49:45,325 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.3/fastjson-1.2.3.pom
+2018-01-18 19:49:45,979 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.3/fastjson-1.2.3.pom
+2018-01-18 19:49:46,289 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom
+2018-01-18 19:49:46,761 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/webservices-extra/1.1/webservices-extra-1.1.jar
+2018-01-18 19:49:46,775 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:46,775 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:47,024 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom
+2018-01-18 19:49:47,334 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2018-01-18 19:49:47,474 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/webservices-rt/1.1/webservices-rt-1.1.jar
+2018-01-18 19:49:47,488 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:47,488 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:47,860 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2018-01-18 19:49:48,167 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2018-01-18 19:49:48,194 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/primefaces/primefaces/2.1/primefaces-2.1.jar
+2018-01-18 19:49:48,206 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - 
+2018-01-18 19:49:48,206 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+2018-01-18 19:49:49,224 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2018-01-18 19:49:51,587 [Worker-2] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated local repository index
+2018-01-18 19:49:51,924 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+2018-01-18 19:49:52,546 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+2018-01-18 19:49:52,831 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.2/maven-compiler-plugin-2.3.2.pom
+2018-01-18 19:49:53,503 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.2/maven-compiler-plugin-2.3.2.pom
+2018-01-18 19:49:53,833 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom
+2018-01-18 19:49:54,798 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom
+2018-01-18 19:49:55,082 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2018-01-18 19:49:56,535 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2018-01-18 19:49:56,842 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.pom
+2018-01-18 19:49:57,924 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.pom
+2018-01-18 19:49:58,221 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/16/commons-parent-16.pom
+2018-01-18 19:50:00,728 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/16/commons-parent-16.pom
+2018-01-18 19:50:01,057 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2018-01-18 19:50:03,119 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2018-01-18 19:50:03,430 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2018-01-18 19:50:06,837 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2018-01-18 19:50:07,115 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom
+2018-01-18 19:50:07,990 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom
+2018-01-18 19:50:08,270 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
+2018-01-18 19:50:09,470 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
+2018-01-18 19:50:09,751 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
+2018-01-18 19:50:12,715 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
+2018-01-18 19:50:13,010 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+2018-01-18 19:50:13,710 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+2018-01-18 19:50:14,684 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/baidu/ueditor/ueditor/1.1.2/ueditor-1.1.2.pom
+2018-01-18 19:50:14,689 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.baidu.ueditor:ueditor:jar:1.1.2 is missing, no dependency information available
+2018-01-18 19:50:15,302 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/json/json/1.0/json-1.0.pom
+2018-01-18 19:50:15,304 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.json:json:jar:1.0 is missing, no dependency information available
+2018-01-18 19:50:15,908 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-codec/1.9/commons-codec-1.9.pom
+2018-01-18 19:50:15,913 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-codec:jar:1.9 is missing, no dependency information available
+2018-01-18 19:50:16,507 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 19:50:17,534 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.0.RELEASE/spring-core-4.1.0.RELEASE.jar
+2018-01-18 19:50:48,186 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.0.RELEASE/spring-core-4.1.0.RELEASE.jar
+2018-01-18 19:50:48,560 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2018-01-18 19:50:52,323 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2018-01-18 19:50:52,615 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.0.RELEASE/spring-web-4.1.0.RELEASE.jar
+2018-01-18 19:51:08,413 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.0.RELEASE/spring-web-4.1.0.RELEASE.jar
+2018-01-18 19:51:08,918 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.0.RELEASE/spring-beans-4.1.0.RELEASE.jar
+2018-01-18 19:51:22,287 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.0.RELEASE/spring-beans-4.1.0.RELEASE.jar
+2018-01-18 19:51:22,543 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-oxm/4.1.0.RELEASE/spring-oxm-4.1.0.RELEASE.jar
+2018-01-18 19:51:25,937 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-oxm/4.1.0.RELEASE/spring-oxm-4.1.0.RELEASE.jar
+2018-01-18 19:51:26,189 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.1.0.RELEASE/spring-tx-4.1.0.RELEASE.jar
+2018-01-18 19:51:32,612 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.1.0.RELEASE/spring-tx-4.1.0.RELEASE.jar
+2018-01-18 19:51:32,872 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.jar
+2018-01-18 19:51:47,218 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.jar
+2018-01-18 19:51:47,469 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.0.RELEASE/spring-aop-4.1.0.RELEASE.jar
+2018-01-18 19:51:55,280 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.0.RELEASE/spring-aop-4.1.0.RELEASE.jar
+2018-01-18 19:51:55,537 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2018-01-18 19:51:56,101 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2018-01-18 19:51:56,357 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context-support/4.1.0.RELEASE/spring-context-support-4.1.0.RELEASE.jar
+2018-01-18 19:52:02,439 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context-support/4.1.0.RELEASE/spring-context-support-4.1.0.RELEASE.jar
+2018-01-18 19:52:02,697 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.0.RELEASE/spring-context-4.1.0.RELEASE.jar
+2018-01-18 19:52:38,581 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.0.RELEASE/spring-context-4.1.0.RELEASE.jar
+2018-01-18 19:52:38,834 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.0.RELEASE/spring-expression-4.1.0.RELEASE.jar
+2018-01-18 19:52:47,379 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.0.RELEASE/spring-expression-4.1.0.RELEASE.jar
+2018-01-18 19:52:47,632 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.0.RELEASE/spring-test-4.1.0.RELEASE.jar
+2018-01-18 19:53:10,099 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.0.RELEASE/spring-test-4.1.0.RELEASE.jar
+2018-01-18 19:53:10,384 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.2.4/mybatis-3.2.4.jar
+2018-01-18 19:53:26,982 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.2.4/mybatis-3.2.4.jar
+2018-01-18 19:53:27,276 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar
+2018-01-18 19:53:29,347 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar
+2018-01-18 19:53:29,590 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15.jar
+2018-01-18 19:53:33,327 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15.jar
+2018-01-18 19:53:33,589 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.jar
+2018-01-18 19:53:50,604 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.jar
+2018-01-18 19:53:50,862 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2018-01-18 19:54:01,386 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2018-01-18 19:54:01,626 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2018-01-18 19:54:04,231 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2018-01-18 19:54:04,479 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2018-01-18 19:54:22,020 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2018-01-18 19:54:22,687 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+2018-01-18 19:54:25,905 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+2018-01-18 19:54:26,166 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
+2018-01-18 19:54:27,459 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
+2018-01-18 19:54:27,708 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+2018-01-18 19:54:58,089 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+2018-01-18 19:54:58,357 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+2018-01-18 19:55:00,043 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+2018-01-18 19:55:00,311 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar
+2018-01-18 19:55:09,885 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar
+2018-01-18 19:55:10,247 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.6/jackson-mapper-asl-1.5.6.jar
+2018-01-18 19:55:23,626 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.6/jackson-mapper-asl-1.5.6.jar
+2018-01-18 19:55:23,886 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.6/jackson-core-asl-1.5.6.jar
+2018-01-18 19:55:29,816 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.6/jackson-core-asl-1.5.6.jar
+2018-01-18 19:55:30,074 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-lgpl/1.5.6/jackson-mapper-lgpl-1.5.6.jar
+2018-01-18 19:55:41,288 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-lgpl/1.5.6/jackson-mapper-lgpl-1.5.6.jar
+2018-01-18 19:55:41,652 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-lgpl/1.5.6/jackson-core-lgpl-1.5.6.jar
+2018-01-18 19:55:46,940 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-lgpl/1.5.6/jackson-core-lgpl-1.5.6.jar
+2018-01-18 19:55:47,197 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4.jar
+2018-01-18 19:56:58,102 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4.jar
+2018-01-18 19:56:58,422 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.jar
+2018-01-18 19:57:06,786 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.jar
+2018-01-18 19:57:07,048 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+2018-01-18 19:57:09,019 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+2018-01-18 19:57:09,268 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.jar
+2018-01-18 19:57:11,085 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.jar
+2018-01-18 19:57:11,345 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar
+2018-01-18 19:57:32,999 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar
+2018-01-18 19:57:33,241 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar
+2018-01-18 19:57:40,841 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar
+2018-01-18 19:57:41,099 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+2018-01-18 19:57:49,885 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+2018-01-18 19:57:50,158 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar
+2018-01-18 19:58:33,462 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar
+2018-01-18 19:58:33,726 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/alibaba/druid/1.0.12/druid-1.0.12.jar
+2018-01-18 19:59:45,477 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/alibaba/druid/1.0.12/druid-1.0.12.jar
+2018-01-18 19:59:51,905 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 19:59:51,905 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 19:59:51,908 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 19:59:51,909 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 19:59:51,910 [Worker-6] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zyrsmc
+2018-01-18 19:59:51,911 [Worker-6] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zyrsmc
+2018-01-18 19:59:51,918 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 is missing, no dependency information available
+2018-01-18 19:59:51,922 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat7-maven-plugin:2.0: Plugin org.apache.tomcat.maven:tomcat7-maven-plugin:2.0 or one of its dependencies could not be resolved: Cannot access central (http://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 has not been downloaded from it before.
+2018-01-18 19:59:51,995 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 is missing, no dependency information available
+2018-01-18 19:59:51,999 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat7-maven-plugin:2.0: Plugin org.apache.tomcat.maven:tomcat7-maven-plugin:2.0 or one of its dependencies could not be resolved: Cannot access central (http://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 has not been downloaded from it before.
+2018-01-18 19:59:52,039 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:11:46,793 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:11:46,837 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2018-01-18 20:11:47,185 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:11:47,186 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:12:23,304 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:0.0.1-SNAPSHOT @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:12:23,470 [Worker-0] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+org.eclipse.m2e.wtp.MarkedException: Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:102) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:74) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:478) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:471) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:251) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:498) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:495) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createSimpleProject(ProjectConfigurationManager.java:668) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$4.doCreateMavenProjects(MavenProjectWizard.java:248) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstactCreateMavenProjectJob$1.doCreateMavenProjects(AbstactCreateMavenProjectJob.java:46) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstactCreateMavenProjectJob.runInWorkspace(AbstactCreateMavenProjectJob.java:50) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 20:12:25,700 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:0.0.1-SNAPSHOT @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:26:22,416 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-18 20:28:10,771 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 20:28:12,352 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:1.0.0 @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:28:55,179 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:0.0.1-SNAPSHOT @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:28:56,171 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zyrsmc/src/main/java
+2018-01-18 20:28:56,172 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zyrsmc/src/main/resources
+2018-01-18 20:28:56,173 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zyrsmc/src/test/java
+2018-01-18 20:28:56,173 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zyrsmc/src/test/resources
+2018-01-18 20:28:57,034 [Worker-23] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+org.eclipse.m2e.wtp.MarkedException: Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:102) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:74) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:478) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:471) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:251) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:498) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:495) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createSimpleProject(ProjectConfigurationManager.java:668) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$4.doCreateMavenProjects(MavenProjectWizard.java:248) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstactCreateMavenProjectJob$1.doCreateMavenProjects(AbstactCreateMavenProjectJob.java:46) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstactCreateMavenProjectJob.runInWorkspace(AbstactCreateMavenProjectJob.java:50) [org.eclipse.m2e.core.ui_1.5.0.me201406190457.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 20:28:57,796 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:0.0.1-SNAPSHOT @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:29:50,678 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-18 20:29:50,680 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:29:50,683 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-18 20:29:50,684 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:29:50,871 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 20:29:51,340 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:29:51,344 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2018-01-18 20:29:51,432 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:29:51,433 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:32:41,806 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-18 20:32:42,127 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 20:32:42,507 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:1.0.0 @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:32:44,943 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cms-biz/src/main/java
+2018-01-18 20:32:44,944 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cms-biz/src/main/resources
+2018-01-18 20:32:44,957 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cms-biz/src/test/java
+2018-01-18 20:32:44,958 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cms-biz/src/test/resources
+2018-01-18 20:32:47,285 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zyrsmc/src/main/java
+2018-01-18 20:32:47,286 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zyrsmc/src/main/resources
+2018-01-18 20:32:47,298 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zyrsmc/src/test/java
+2018-01-18 20:32:47,299 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zyrsmc/src/test/resources
+2018-01-18 20:32:48,069 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2018-01-18 20:33:05,863 [Worker-5] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|http://repo.maven.apache.org/maven2
+org.eclipse.core.runtime.OperationCanceledException: null
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:90) ~[org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:700) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:829) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 20:33:06,915 [Worker-0] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: mirrorId|http://localhost:8081/nexus/content/groups/public/
+2018-01-18 20:33:08,967 [Worker-0] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for mirrorId|http://localhost:8081/nexus/content/groups/public/
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.7.0_45]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_45]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.7.0_45]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_45]
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:126) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.Connection.connect(Connection.java:155) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:246) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:186) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:375) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:328) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:493) ~[okhttp-1.5.4.jar:na]
+	at io.tesla.aether.okhttp.OkHttpAetherClient.authenticate(OkHttpAetherClient.java:131) ~[aether-connector-okhttp-0.12.0.jar:0.12.0]
+	at io.tesla.aether.okhttp.OkHttpAetherClient.get(OkHttpAetherClient.java:85) ~[aether-connector-okhttp-0.12.0.jar:0.12.0]
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:79) ~[org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:452) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:75) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:607) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:788) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 20:33:10,020 [Worker-24] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: mirrorId|http://localhost:8081/nexus/content/groups/public/
+2018-01-18 20:33:12,029 [Worker-24] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for mirrorId|http://localhost:8081/nexus/content/groups/public/
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.7.0_45]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_45]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.7.0_45]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_45]
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:126) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.Connection.connect(Connection.java:155) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:246) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:186) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:375) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:328) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:493) ~[okhttp-1.5.4.jar:na]
+	at io.tesla.aether.okhttp.OkHttpAetherClient.authenticate(OkHttpAetherClient.java:131) ~[aether-connector-okhttp-0.12.0.jar:0.12.0]
+	at io.tesla.aether.okhttp.OkHttpAetherClient.get(OkHttpAetherClient.java:85) ~[aether-connector-okhttp-0.12.0.jar:0.12.0]
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:79) ~[org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:452) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:75) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:607) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:788) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 20:35:25,938 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 20:35:26,394 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:26,396 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2018-01-18 20:35:26,411 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:26,412 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:35:26,477 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh:zyrsmc:1.0.0 @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:35:27,736 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:27,748 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:35:27,752 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:27,753 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:35:43,078 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:43,081 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2018-01-18 20:35:43,112 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:43,114 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:35:44,125 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:44,126 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:35:44,128 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 20:35:44,129 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 20:37:02,688 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-18 20:37:02,789 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.web:zyrsmc:1.0.0 @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 20:37:04,075 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zyrsmc/src/main/java
+2018-01-18 20:37:04,076 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zyrsmc/src/main/resources
+2018-01-18 20:37:04,076 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zyrsmc/src/test/java
+2018-01-18 20:37:04,076 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zyrsmc/src/test/resources
+2018-01-18 20:37:04,666 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-01-18 20:42:01,315 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-18 21:30:17,810 [Worker-0] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2018-01-18 21:30:27,692 [Worker-3] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: mirrorId|http://localhost:8081/nexus/content/groups/public/
+2018-01-18 21:30:29,996 [Worker-3] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for mirrorId|http://localhost:8081/nexus/content/groups/public/
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.7.0_45]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_45]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_45]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.7.0_45]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_45]
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:126) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.Connection.connect(Connection.java:155) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:246) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:186) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:375) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:328) ~[okhttp-1.5.4.jar:na]
+	at com.squareup.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:493) ~[okhttp-1.5.4.jar:na]
+	at io.tesla.aether.okhttp.OkHttpAetherClient.authenticate(OkHttpAetherClient.java:131) ~[aether-connector-okhttp-0.12.0.jar:0.12.0]
+	at io.tesla.aether.okhttp.OkHttpAetherClient.get(OkHttpAetherClient.java:85) ~[aether-connector-okhttp-0.12.0.jar:0.12.0]
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:79) ~[org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:452) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:75) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:607) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:788) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.5.0.me201410311552.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2018-01-18 21:30:42,177 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.cms:cms-biz:1.0.0 @ F:\new_space\cms-biz\pom.xml.
+2018-01-18 21:30:43,327 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:30:43,334 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2018-01-18 21:30:43,422 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:30:43,423 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 21:30:44,518 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zlh.web:zyrsmc:1.0.0 @ F:\new_space\zyrsmc\pom.xml.
+2018-01-18 21:30:46,880 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:30:46,881 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-01-18 21:30:46,891 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:30:46,892 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 21:30:46,899 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zyrsmc
+2018-01-18 21:30:46,899 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zyrsmc
+2018-01-18 21:30:47,233 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:31:06,711 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2018-01-18 21:31:06,828 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\new_space\cms-biz
+2018-01-18 21:31:06,829 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s F:\apache-maven-3.3.9\conf\settings.xml clean install
+2018-01-18 21:32:11,558 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:32:11,561 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 21:32:11,564 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:32:11,564 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 21:32:12,624 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:32:12,625 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 21:32:12,627 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-18 21:32:12,627 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-18 21:32:14,965 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2018-01-18 21:32:15,109 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\new_space\cms-biz
+2018-01-18 21:32:15,110 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s F:\apache-maven-3.3.9\conf\settings.xml clean install
+2018-01-18 21:32:31,204 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2018-01-18 21:32:31,350 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\new_space\zyrsmc
+2018-01-18 21:32:31,350 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s F:\apache-maven-3.3.9\conf\settings.xml clean install
+2018-01-18 21:33:04,697 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-18 21:33:11,452 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\new_space\zyrsmc
+2018-01-18 21:33:11,452 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s F:\apache-maven-3.3.9\conf\settings.xml tomcat7:run
+2018-01-18 21:34:35,220 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\new_space\zyrsmc
+2018-01-18 21:34:35,220 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s F:\apache-maven-3.3.9\conf\settings.xml tomcat7:run

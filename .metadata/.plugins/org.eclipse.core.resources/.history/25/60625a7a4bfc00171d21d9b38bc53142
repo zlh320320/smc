@@ -1,0 +1,43 @@
+package com.zlh.web.baby.controller;
+
+import java.util.List;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.github.miemiedev.mybatis.paginator.domain.PageBounds;
+import com.github.miemiedev.mybatis.paginator.domain.PageList;
+import com.zlh.baby.BabyServiceLocator;
+import com.zlh.baby.dto.BabyDTO;
+import com.zlh.baby.service.BabyService;
+import com.zlh.web.front.intercepter.NeedLogin;
+import com.zlh.web.wechat.controller.UserController;
+
+@Controller
+@RequestMapping("/baby")
+public class BabyController {
+
+    private static BabyService babyService = BabyServiceLocator.getBabyService();
+    private static Log         logger      = LogFactory.getLog(BabyController.class);
+
+    @RequestMapping(value = "/getBabyList")
+    @NeedLogin
+    public ModelAndView getBabyList(@RequestParam(defaultValue = "1")
+    Integer pageNo, @RequestParam(defaultValue = "10")
+    Integer pageSize) {
+        logger.info("to getBabyList Method...");
+
+        ModelAndView modelAndView = new ModelAndView();
+        PageBounds page = new PageBounds(pageNo, pageSize);
+        List<BabyDTO> babyList = babyService.getBabyList(page);
+        PageList<BabyDTO> pageList = (PageList<BabyDTO>) babyList;
+        modelAndView.addObject("babyList", babyList);
+        modelAndView.addObject("page", pageList.getPaginator());
+        modelAndView.setViewName("/baby/babyList");
+        return modelAndView;
+    }
+}

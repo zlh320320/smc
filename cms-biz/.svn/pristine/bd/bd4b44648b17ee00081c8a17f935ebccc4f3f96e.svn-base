@@ -1,0 +1,41 @@
+package com.zlh.cms.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.zlh.cms.biz.ColumnBiz;
+import com.zlh.cms.service.ColumnService;
+import com.zlh.cms.dto.ColumnDTO;
+import java.util.List;
+import com.github.miemiedev.mybatis.paginator.domain.PageBounds;
+
+@Service
+public class  ColumnServiceImpl implements ColumnService {
+
+	@Autowired
+    private ColumnBiz columnBiz;
+
+	@Override
+	public 	ColumnDTO getColumn(int id){
+	      return columnBiz.getColumn(id);
+	}
+		
+	@Override
+	public 	int saveColumn(ColumnDTO columnDTO){
+		   return columnBiz.saveColumn(columnDTO);
+	}
+	
+	@Override
+	public 	int updateColumn(ColumnDTO columnDTO){
+		  return columnBiz.updateColumn(columnDTO);
+	}
+	
+	@Override
+	public 	int deleteColumn(int id){
+		  return columnBiz.deleteColumn(id);
+	}
+	
+	@Override
+	public List<ColumnDTO> getColumnList(PageBounds page){
+		 return columnBiz.getColumnList(page);
+	}
+}

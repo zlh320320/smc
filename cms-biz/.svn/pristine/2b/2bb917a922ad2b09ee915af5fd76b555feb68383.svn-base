@@ -1,0 +1,30 @@
+package com.zlh.cms;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.alibaba.druid.support.logging.Log;
+import com.alibaba.druid.support.logging.LogFactory;
+
+/**
+ * @author z
+ */
+public class CmsServiceLocator {
+
+    private static Log                logger = LogFactory.getLog(CmsServiceLocator.class);
+    private static ApplicationContext applicationContext;
+
+    static {
+        synchronized (CmsServiceLocator.class) {
+            try {
+                applicationContext = new ClassPathXmlApplicationContext(
+                                                                        new String[] { "classpath*:conf/cms-service-locator.xml" });
+
+            } catch (Exception e) {
+                logger.error("Init RelateServiceLocator services error!", e);
+                applicationContext = null;
+            }
+        }
+    }
+
+}

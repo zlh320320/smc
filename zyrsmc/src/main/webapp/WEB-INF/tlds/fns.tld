@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+>
+<tlib-version>1.0</tlib-version>
+<short-name>fns</short-name>
+<uri>https://zlh/fns/tld</uri>
+ <function>
+   <name>getMenus</name>
+   <function-class>com.zlh.web.wechat.common.MenuUtils</function-class>
+   <function-signature>java.util.List getMenus()</function-signature>
+</function> 
+
+<function>
+   <name>getDictList</name>
+   <function-class>com.zlh.web.utils.DictUtils</function-class>
+   <function-signature>java.util.List getDictList(java.lang.String)</function-signature>
+</function>
+
+<function>
+   <name>getDictLabel</name>
+   <function-class>com.zlh.web.utils.DictUtils</function-class>
+   <function-signature>com.zlh.wx.dto.DictItemDTO getDictLabel(java.lang.String,java.lang.String)</function-signature>
+</function>
+
+<function>
+   <name>getUserById</name>
+   <function-class>com.zlh.web.utils.UserUtils</function-class>
+   <function-signature>com.zlh.wx.dto.UserDTO getUserById(int)</function-signature>
+</function>
+
+<function>
+   <name>getColumnById</name>
+   <function-class>com.zlh.web.utils.ContentUtils</function-class>
+   <function-signature>com.zlh.cms.dto.ColumnDTO getColumnById(int)</function-signature>
+</function>
+<function>
+   <name>getSiteById</name>
+   <function-class>com.zlh.web.utils.ContentUtils</function-class>
+   <function-signature>com.zlh.cms.dto.SiteDTO getSiteById(int)</function-signature>
+</function>
+ <function>
+   <name>getColumnList</name>
+   <function-class>com.zlh.web.utils.ContentUtils</function-class>
+   <function-signature>java.util.List getColumnList(int)</function-signature>
+</function>
+</taglib>

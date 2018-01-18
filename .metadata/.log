@@ -1,0 +1,992 @@
+!SESSION 2018-01-18 19:44:59.066 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -data F:\new_space -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 19:45:05.809
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.jface 2 0 2018-01-18 19:45:09.702
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-18 19:45:09.702
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2959142b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@173b2842,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-18 19:45:45.920
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-18 19:45:45.921
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\zhenglh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.034
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.182
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.216
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.250
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.286
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.316
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.419
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.457
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.511
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.559
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-01-18 19:45:54.611
+!MESSAGE Installed snippet library: D:\java\myeclipse2015\configuration\org.eclipse.osgi\133\0\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-01-18 19:46:30.803
+!MESSAGE Metadata for this software package has been updated and is being received from the update server
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-01-18 19:46:30.807
+!MESSAGE Server has validated the local update metadata; no new metadata is necessary at this time
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:40.043
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:41.815
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:42.853
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:43.615
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:44.571
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:48.055
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 19:46:48.612
+!MESSAGE Marker id 198 not found.
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:48.838
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:49.679
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:50.448
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:51.206
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:53.230
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:53.971
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:54.749
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:55.472
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:56.333
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:57.697
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:58.489
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:46:59.234
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:00.090
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:06.928
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:07.676
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:08.415
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:09.096
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:09.916
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:10.719
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:11.610
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:12.474
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:14.732
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:15.513
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:16.233
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:17.107
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:18.660
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:19.494
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:20.231
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:21.179
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:22.057
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:22.783
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:23.756
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:24.512
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:25.341
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:26.097
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:26.810
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:27.488
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:28.342
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:29.030
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:29.818
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:30.683
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:31.488
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:32.304
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:33.050
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:33.765
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:34.455
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:35.313
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:36.127
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:36.811
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:37.519
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:38.463
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:39.205
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:39.893
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:40.778
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:41.518
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:42.270
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:43.120
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:43.967
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:44.414
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:45.240
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:45.937
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:46.634
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:47.321
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:48.065
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:48.964
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:49.675
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:50.345
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:51.096
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:51.844
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:53.170
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:47:54.459
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:28.136
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:48.176
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:48.629
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:49.371
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:50.173
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:50.733
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 19:48:52.747
+!MESSAGE Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:53.017
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:53.703
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:48:54.091
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:48:54.095
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:54.445
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:55.236
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:56.198
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:57.339
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:58.131
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:58.922
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:48:59.724
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:00.418
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:01.615
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:02.339
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:03.103
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:03.811
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:04.520
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:05.217
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:06.003
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:07.432
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:08.312
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:09.092
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:09.823
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:10.545
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:11.323
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:12.076
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:12.844
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:14.141
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:15.108
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:15.868
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:16.586
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:17.295
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:18.089
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:19.030
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:19.821
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:20.717
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:21.504
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:22.277
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:23.102
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:23.966
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:24.856
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:25.582
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:26.396
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:28.072
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:28.757
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:29.435
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:30.412
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:31.114
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:31.888
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:32.942
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:33.632
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:34.397
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:35.201
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:35.991
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:49:36.315
+!MESSAGE The POM for com.zlh:baby-biz:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:49:36.978
+!MESSAGE The POM for com.zlh.wx:wx-biz:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:49:37.688
+!MESSAGE The POM for com.zlh.exam:exam-biz:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:37.853
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:49:38.558
+!MESSAGE The POM for com.zlh.wx:wx-cache:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:41.687
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:42.367
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:43.563
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:44.437
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:45.141
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:46.949
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:47.691
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2018-01-18 19:49:48.357
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.4:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.4 or one of its dependencies could not be resolved: Failed to collect dependencies at org.apache.maven.plugins:maven-install-plugin:jar:2.4 -> org.apache.maven:maven-project:jar:2.0.6 -> org.apache.maven:maven-settings:jar:2.0.6 -> org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1 -> junit:junit:jar:3.8.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:50:14.690
+!MESSAGE The POM for com.baidu.ueditor:ueditor:jar:1.1.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:50:15.305
+!MESSAGE The POM for org.json:json:jar:1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:50:15.914
+!MESSAGE The POM for org.apache.commons:commons-codec:jar:1.9 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:59:51.918
+!MESSAGE The POM for org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:59:51.923
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat7-maven-plugin:2.0: Plugin org.apache.tomcat.maven:tomcat7-maven-plugin:2.0 or one of its dependencies could not be resolved: Cannot access central (http://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:59:51.996
+!MESSAGE The POM for org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 19:59:52.000
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat7-maven-plugin:2.0: Plugin org.apache.tomcat.maven:tomcat7-maven-plugin:2.0 or one of its dependencies could not be resolved: Cannot access central (http://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 20:12:23.471
+!MESSAGE Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 20:28:57.035
+!MESSAGE Cannot detect Web Project version. Please specify version of Web Project through <version> configuration property of war plugin. E.g.: <plugin> <artifactId>maven-war-plugin</artifactId> <configuration> <version>3.0</version> </configuration> </plugin>
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 20:29:50.679
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-01-18 20:29:50.683
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-01-18 20:29:50.765
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: cms-biz
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:186)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.jdt.internal.ui.util.CoreUtility$BuildJob.run(CoreUtility.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Could not delete '/cms-biz/target/classes/conf'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:186)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.jdt.internal.ui.util.CoreUtility$BuildJob.run(CoreUtility.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-01-18 20:29:50.796
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-01-18 20:29:50.796
+!MESSAGE Could not delete '/cms-biz/target/classes/conf'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:186)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.jdt.internal.ui.util.CoreUtility$BuildJob.run(CoreUtility.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2018-01-18 20:29:50.796
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-01-18 20:29:50.796
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:29:50.796
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:29:50.796
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:29:50.796
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:29:50.796
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf.
+
+!ENTRY org.eclipse.m2e.core.ui 4 -1 2018-01-18 20:32:48.121
+!MESSAGE Unable to update Maven configuration
+!SUBENTRY 1 org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 20:32:48.121
+!MESSAGE One or more constraints have not been satisfied.
+!SUBENTRY 2 org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 20:32:48.121
+!MESSAGE Spring 4.1 requires Java 1.6 or newer.
+!SUBENTRY 1 org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 20:32:48.121
+!MESSAGE One or more constraints have not been satisfied.
+!SUBENTRY 2 org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 20:32:48.121
+!MESSAGE Spring 4.1 requires Java 1.6 or newer.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 20:33:05.864
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 20:33:08.968
+!MESSAGE Unable to update index for mirrorId|http://localhost:8081/nexus/content/groups/public/
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 20:33:12.030
+!MESSAGE Unable to update index for mirrorId|http://localhost:8081/nexus/content/groups/public/
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-01-18 20:35:25.872
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: cms-biz
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.wst.validation.internal.FullBuildJob.runInWorkspace(FullBuildJob.java:21)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Could not delete '/cms-biz/target/classes/conf'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.wst.validation.internal.FullBuildJob.runInWorkspace(FullBuildJob.java:21)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-01-18 20:35:25.872
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-01-18 20:35:25.872
+!MESSAGE Could not delete '/cms-biz/target/classes/conf'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.wst.validation.internal.FullBuildJob.runInWorkspace(FullBuildJob.java:21)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2018-01-18 20:35:25.872
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:25.872
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:25.872
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:25.872
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:25.872
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:25.872
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf.
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-01-18 20:35:42.590
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: cms-biz
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.wst.validation.internal.FullBuildJob.runInWorkspace(FullBuildJob.java:21)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Could not delete '/cms-biz/target/classes/conf'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.wst.validation.internal.FullBuildJob.runInWorkspace(FullBuildJob.java:21)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-01-18 20:35:42.591
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-01-18 20:35:42.591
+!MESSAGE Could not delete '/cms-biz/target/classes/conf'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.wst.validation.internal.FullBuildJob.runInWorkspace(FullBuildJob.java:21)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+Contains: Could not delete: F:\new_space\cms-biz\target\classes\conf.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2018-01-18 20:35:42.591
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:42.591
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:42.591
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper\SiteMarkMapper.xml.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:42.591
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis\mapper.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:42.591
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf\mybatis.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2018-01-18 20:35:42.591
+!MESSAGE Could not delete: F:\new_space\cms-biz\target\classes\conf.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 20:37:04.668
+!MESSAGE One or more constraints have not been satisfied.
+!SUBENTRY 1 org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 20:37:04.668
+!MESSAGE Spring 4.1 requires Java 1.6 or newer.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2018-01-18 20:41:44.279
+!MESSAGE JPSIndexManger: problem indexing:/zyrsmc/src/main/webapp/WEB-INF/modules/views/common/sidebar.jsp
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1911)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.genFunction(ELGeneratorVisitor.java:239)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:572)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTFunctionInvocation.jjtAccept(ASTFunctionInvocation.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:70)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:495)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValuePrefix.jjtAccept(ASTValuePrefix.java:28)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:70)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:476)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:28)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:70)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:455)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:28)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:70)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:280)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:28)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGenerator.generate(ELGenerator.java:51)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.JSPELTranslator.translateEL(JSPELTranslator.java:68)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateEL(JSPTranslator.java:1869)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateEmbeddedJSPInAttribute(JSPTranslator.java:2029)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.checkAllAttributeValueContainers(JSPTranslator.java:1678)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateXMLNode(JSPTranslator.java:1644)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateRegionContainer(JSPTranslator.java:1416)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translate(JSPTranslator.java:1193)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapter.getJSPTranslation(JSPTranslationAdapter.java:152)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getJSPTranslation(JSPSearchDocument.java:120)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:159)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:138)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1528)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1526)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2018-01-18 21:29:30.031
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-01-18 21:29:31.900
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.validation.internal.ValBuilderJob
+!SESSION 2018-01-18 21:29:35.385 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -data F:\new_space -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-01-18 21:29:42.547
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-01-18 21:29:45.991
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.jface 2 0 2018-01-18 21:30:02.582
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-18 21:30:02.583
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2962f75c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@205dce3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-18 21:30:29.949
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-18 21:30:29.951
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\zhenglh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-01-18 21:30:29.997
+!MESSAGE Unable to update index for mirrorId|http://localhost:8081/nexus/content/groups/public/

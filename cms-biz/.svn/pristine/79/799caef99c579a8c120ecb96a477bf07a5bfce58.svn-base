@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.zlh.cms.dao.ContentFileDao" > 
+
+	<sql id="allField">
+		id,content_id,file_name,file_path
+    </sql>
+    <sql id="allProperties">
+     <trim  suffixOverrides="," >
+    				#{id},
+					#{contentId},
+					#{fileName},
+					#{filePath},
+		     </trim>
+    </sql>
+    
+    <sql id="tableName">
+      t_cms_contentfile
+    </sql>
+	<select id="getContentFile" resultType="com.zlh.cms.dto.ContentFileDTO">
+		select * from <include refid="tableName"></include>  where id = #id 
+	</select>
+	
+	<select id="getContentFileList" resultType="com.zlh.cms.dto.ContentFileDTO">
+		select * from <include refid="tableName"></include> 
+	</select>
+	
+	<delete id="delContentFile">
+	    delete from <include refid="tableName"></include> where id = #id
+	</delete>
+	
+	<insert id="createContentFile"  useGeneratedKeys="true" keyProperty="id">
+	  <selectKey keyProperty="id" resultType="int" order="AFTER"> 
+		SELECT @@IDENTITY AS id 
+	  </selectKey> 
+		insert into <include refid="tableName"></include>
+		(<include refid="allField"></include>)
+		 values
+		(<include refid="allProperties"></include>)
+	</insert>
+	<update id="updateContentFile">
+	   update <include refid="tableName"></include> set 
+	<trim  suffixOverrides="," >
+	<if test="contentId != null  ">
+		content_id=#{contentId},
+	</if>
+	<if test="fileName != null  ">
+		file_name=#{fileName},
+	</if>
+	<if test="filePath != null  ">
+		file_path=#{filePath},
+	</if>
+	</trim> where id=#{id}
+	</update>
+  	
+</mapper>   

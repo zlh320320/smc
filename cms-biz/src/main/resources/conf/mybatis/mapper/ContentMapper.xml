@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.zlh.cms.dao.ContentDao" > 
+
+	<sql id="allField">
+		id,title,summary,click_num,content,order_flag,create_date,update_date,fromname,from_url,site_id,column_id,editor,picture
+    </sql>
+    <sql id="allProperties">
+     <trim  suffixOverrides="," >
+    				#{id},
+					#{title},
+					#{summary},
+					#{clickNum},
+					#{content},
+					#{orderFlag},
+					#{createDate},
+					#{updateDate},
+					#{fromname},
+					#{fromUrl},
+					#{siteId},#{columnId},#{editor},#{picture}
+		     </trim>
+    </sql>
+    
+    <sql id="tableName">
+      t_cms_content
+    </sql>
+	<select id="getContent" resultType="com.zlh.cms.dto.ContentDTO">
+		select * from <include refid="tableName"></include>  where id = #{id}
+	</select>
+	
+	<select id="getContentList" resultType="com.zlh.cms.dto.ContentDTO">
+		select * from <include refid="tableName"></include> where 1=1
+		<if test="columnId &gt; 0">
+		   and column_id=#{columnId}
+		</if> order by order_flag desc,create_date desc
+	</select>
+	<select id="searchContents" resultType="com.zlh.cms.dto.ContentDTO">
+		select * from <include refid="tableName"></include> where 1=1
+		 <if test="title != null">
+		 and title like concat("%",#{title},"%")
+		</if>
+		 order by order_flag desc,create_date desc
+	</select>
+	<delete id="delContent">
+	    delete from <include refid="tableName"></include> where id =#{id}
+	</delete>
+	
+	<insert id="saveContent"  useGeneratedKeys="true" keyProperty="id">
+	  <selectKey keyProperty="id" resultType="int" order="AFTER"> 
+		SELECT @@IDENTITY AS id 
+	  </selectKey> 
+		insert into <include refid="tableName"></include>
+		(<include refid="allField"></include>)
+		 values
+		(<include refid="allProperties"></include>)
+	</insert>
+	<update id="updateContent">
+	   update <include refid="tableName"></include> set 
+	<trim  suffixOverrides="," >
+	<if test="title != null  ">
+		title=#{title},
+	</if>
+	<if test="summary != null  ">
+		summary=#{summary},
+	</if>
+	<if test="clickNum != null  ">
+		click_num=#{clickNum},
+	</if>
+	<if test="content != null  ">
+		content=#{content},
+	</if>
+	<if test="orderFlag != null  ">
+		order_flag=#{orderFlag},
+	</if>
+	<if test="createDate != null  ">
+		create_date=#{createDate},
+	</if>
+	<if test="updateDate != null  ">
+		update_date=#{updateDate},
+	</if>
+	<if test="fromname != null  ">
+		fromname=#{fromname},
+	</if>
+	<if test="fromUrl != null  ">
+		from_url=#{fromUrl},
+	</if>
+	<if test="siteId != null  ">
+		site_id=#{siteId},
+	</if>
+	<if test="columnId != null  ">
+		column_id=#{columnId},
+	</if>
+	<if test="editor != null  ">
+		editor=#{editor},
+	</if>
+	<if test="picture != null  ">
+		picture=#{picture},
+	</if>
+	</trim> where id=#{id}
+	</update>
+  	
+</mapper>   
