@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.zlh.wx.dao.RoleDao" > 
+
+	<sql id="allField">
+		role_id,parent_id,role_name,create_date,description
+    </sql>
+    <sql id="allProperties">
+    				#{roleId},
+					#{parentId},
+					#{roleName},
+					#{createDate},
+					#{description},
+		    </sql>
+    
+    <sql id="tableName">
+      t_wx_role
+    </sql>
+	<select id="getRole" resultType="com.zlh.wx.dto.RoleDTO">
+		select * from <include refid="tableName"></include>  where id = #id 
+	</select>
+	
+	<select id="getRoleList" resultType="com.zlh.wx.dto.RoleDTO">
+		select * from <include refid="tableName"></include> 
+	</select>
+	
+	<delete id="delRole">
+	    delete from <include refid="tableName"></include> where id = #id
+	</delete>
+	
+	<insert id="createRole"  useGeneratedKeys="true" keyProperty="id">
+	  <selectKey keyProperty="id" resultType="int" order="AFTER"> 
+		SELECT @@IDENTITY AS id 
+	  </selectKey> 
+		insert into <include refid="tableName"></include>
+		(<include refid="allField"></include>)
+		 values
+		(<include refid="allProperties"></include>)
+	</insert>
+	<update id="updateRole">
+	   update <include refid="tableName"></include> set 
+	<trim  suffixOverrides="," >
+	<if test="parentId != null  ">
+		parent_id=#{parentId},
+	</if>
+	<if test="roleName != null  ">
+		role_name=#{roleName},
+	</if>
+	<if test="createDate != null  ">
+		create_date=#{createDate},
+	</if>
+	<if test="description != null  ">
+		description=#{description},
+	</if>
+	</trim> where role_id=#{roleId}
+	</update>
+  	
+</mapper>   

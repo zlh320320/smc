@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.zlh.wx.dao.DictItemDao" > 
+
+	<sql id="allField">
+		id,dict_id,item_value,item_label,del_flag
+    </sql>
+    <sql id="allProperties">
+     <trim  suffixOverrides="," >
+    				#{id},
+					#{dictId},
+					#{itemValue},
+					#{itemLabel},
+					#{delFlag},
+		     </trim>
+    </sql>
+    
+    <sql id="tableName">
+      t_wx_dictitem
+    </sql>
+	<select id="getDictItem" resultType="com.zlh.wx.dto.DictItemDTO">
+		select * from <include refid="tableName"></include>  where id = #{id} 
+	</select>
+	
+	<select id="getDictItemList" resultType="com.zlh.wx.dto.DictItemDTO">
+		select * from <include refid="tableName"></include> where dict_id=#{dictId}
+	</select>
+	
+	<delete id="delDictItem">
+	    delete from <include refid="tableName"></include> where id = #{id}
+	</delete>
+	
+	<insert id="saveDictItem"  useGeneratedKeys="true" keyProperty="id">
+	  <selectKey keyProperty="id" resultType="int" order="AFTER"> 
+		SELECT @@IDENTITY AS id 
+	  </selectKey> 
+		insert into <include refid="tableName"></include>
+		(<include refid="allField"></include>)
+		 values
+		(<include refid="allProperties"></include>)
+	</insert>
+	<update id="updateDictItem">
+	   update <include refid="tableName"></include> set 
+	<trim  suffixOverrides="," >
+	<if test="dictId != null  ">
+		dict_id=#{dictId},
+	</if>
+	<if test="itemValue != null  and itemValue != '' ">
+		item_value=#{itemValue},
+	</if>
+	<if test="itemLabel != null  and itemLabel != '' ">
+		item_label=#{itemLabel},
+	</if>
+	<if test="delFlag != null  ">
+		del_flag=#{delFlag},
+	</if>
+	</trim> where id=#{id}
+	</update>
+  	
+</mapper>   

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zlh.wx.dao.PublicNumberDao">
+
+   <sql id="allColumn">
+     id,avatar,qrcode,public_name,public_desc,wechat,email,mobilephone,app_id,app_secret,creator,create_date
+   </sql>
+   <sql id="allProperties">
+   #{id},#{avatar},#{qrcode},#{publicName},#{publicDesc},#{wechat},#{email},#{mobilephone},
+   #{appId},#{appSecret},#{creator},#{createDate}
+   </sql>
+
+	<insert id="createPublicNumber" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO t_wx_publicnumber
+		  (<include refid="allColumn"></include>)
+		VALUES
+		  (<include refid="allProperties"></include>)
+	</insert>
+	
+	<select id="getPublicNumber" resultType="com.zlh.wx.dto.PublicNumberDTO">
+		select * from t_wx_publicnumber t where creator = #{creator}
+	</select>
+	
+	<select id="getPublicNumbers" resultType="com.zlh.wx.dto.PublicNumberDTO">
+		select * from t_wx_publicnumber t 
+	</select>
+	
+	 <update id="updatePublicNumber">
+	     update t_wx_user 
+	     <trim prefix="set" suffixOverrides=",">
+	        <if test="avatar !=null and avatar !=''">
+	          avatar=#{avatar}
+	        </if>
+	        <if test="qrcode !=null and qrcode !=''">
+	          qrcode=#{qrcode}
+	        </if>
+	        <if test="publicName !=null and publicName !=''">
+	          public_name=#{publicName}
+	        </if>
+	        <if test="publicDesc !=null and publicDesc !=''">
+	          public_desc=#{publicDesc}
+	        </if>
+	        <if test="wechat !=null and wechat !=''">
+	          wechat=#{wechat}
+	        </if>
+	        <if test="email !=null and email !=''">
+	          email=#{email}
+	        </if>
+	        <if test="mobilephone !=null and mobilephone !=''">
+	          mobilephone=#{mobilephone}
+	        </if>
+	        <if test="appId !=null and appId !=''">
+	          app_id=#{appId}
+	        </if>
+	        <if test="appSecret !=null and appSecret !=''">
+	          app_secret=#{appSecret}
+	        </if>
+	        <if test="creator !=null and creator !=''">
+	          creator=#{creator}
+	        </if>
+	        <if test="createDate !=null and createDate !=''">
+	          create_date=#{createDate}
+	        </if>
+	     </trim>
+	     where user_id=#{userId}
+	 </update>
+	
+</mapper>
+    

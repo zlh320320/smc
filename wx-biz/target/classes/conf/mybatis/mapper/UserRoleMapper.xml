@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.zlh.wx.dao.UserRoleDao" > 
+
+	<sql id="allField">
+		id,user_id,role_id
+    </sql>
+    <sql id="allProperties">
+    				#{id},
+					#{userId},
+					#{roleId},
+		    </sql>
+    
+    <sql id="tableName">
+      t_wx_userrole
+    </sql>
+	<select id="getUserRole" resultType="com.zlh.wx.dto.UserRoleDTO">
+		select * from <include refid="tableName"></include>  where id = #id 
+	</select>
+	
+	<select id="getUserRoleList" resultType="com.zlh.wx.dto.UserRoleDTO">
+		select * from <include refid="tableName"></include> 
+	</select>
+	
+	<delete id="delUserRole">
+	    delete from <include refid="tableName"></include> where id = #id
+	</delete>
+	
+	<insert id="createUserRole"  useGeneratedKeys="true" keyProperty="id">
+	  <selectKey keyProperty="id" resultType="int" order="AFTER"> 
+		SELECT @@IDENTITY AS id 
+	  </selectKey> 
+		insert into <include refid="tableName"></include>
+		(<include refid="allField"></include>)
+		 values
+		(<include refid="allProperties"></include>)
+	</insert>
+	<update id="updateUserRole">
+	   update <include refid="tableName"></include> set 
+	<trim  suffixOverrides="," >
+	<if test="userId != null  ">
+		user_id=#{userId},
+	</if>
+	<if test="roleId != null  ">
+		role_id=#{roleId},
+	</if>
+	</trim> where id=#{id}
+	</update>
+  	
+</mapper>   

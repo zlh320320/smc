@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zlh.wx.dao.UserDao">
+
+	<sql id="allColumn">
+		user_id,nick_name,real_name,username,password,mobilephone,email,create_date,lastlogin_date
+		,lastlogin_ip,login_times,is_admin,avatar
+	</sql>
+	<sql id="allProperties">
+		#{userId},#{nickName},#{realName},#{username},#{password},#{mobilephone},#{email},#{createDate},
+		#{lastloginDate},#{lastloginIp},#{loginTimes},#{isAdmin},#{avatar}
+	</sql>
+
+	<insert id="createUser" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO t_wx_user
+		(
+		<include refid="allColumn"></include>
+		)
+		VALUES
+		(
+		<include refid="allProperties"></include>
+		)
+	</insert>
+
+	<select id="getUserByUserId" resultType="com.zlh.wx.dto.UserDTO">
+		select * from t_wx_user
+		t where user_id = #{userId}
+	</select>
+	<select id="getUserByUserName" resultType="com.zlh.wx.dto.UserDTO">
+		select * from t_wx_user
+		t where username = #{username}
+	</select>
+
+	<select id="getUserList" resultType="com.zlh.wx.dto.UserDTO">
+		select * from t_wx_user t
+		where 1=1 
+		<if test="realName !='' and realName!=null">
+		and real_name like concat("%",#{realName},"%")
+		</if>
+	</select>
+	<select id="getLatestUserList" resultType="com.zlh.wx.dto.UserDTO">
+		select * from t_wx_user t
+		where 1=1
+		<if test="realName !=null">
+		 and real_name like concat("%",#{realName},"%")
+		</if>
+		order by  create_date desc
+	</select>
+	<select id="getLatestLoginUser" resultType="com.zlh.wx.dto.UserDTO">
+		select * from t_wx_user t
+		where 1=1
+		order by  lastlogin_date desc
+	</select>
+
+	<update id="updateUserByFlag">
+		update t_wx_user set del_flag=#{delFlag} where
+		user_id=#{userId}
+	</update>
+
+	<delete id="deleteUser">
+		delete from t_wx_user where user_id=#{userId}
+	</delete>
+	<update id="updateUser">
+		update t_wx_user
+
+		<trim prefix="set" suffixOverrides=",">
+		<if test="nickName != null  ">
+			nick_name=#{nickName},
+		</if>
+		<if test="realName != null  ">
+			real_name=#{realName},
+		</if>
+		<if test="username != null  ">
+			username=#{username},
+		</if>
+		<if test="password != null  ">
+			password=#{password},
+		</if>
+		<if test="mobilephone != null  ">
+			mobilephone=#{mobilephone},
+		</if>
+		<if test="email != null  ">
+			email=#{email},
+		</if>
+		<if test="lastloginDate != null  ">
+			lastlogin_date=#{lastloginDate},
+		</if>
+		<if test="lastloginIp != null  ">
+			lastlogin_ip=#{lastloginIp},
+		</if>
+		<if test="loginTimes != null  ">
+			login_times=#{loginTimes},
+		</if>
+		<if test="isAdmin != null  ">
+			is_admin=#{isAdmin},
+		</if>
+		<if test="avatar != null  ">
+			avatar=#{avatar},
+		</if>
+		</trim>
+		where user_id=#{userId}
+	</update>
+
+</mapper>
+    

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.zlh.wx.dao.UserAuthDao" > 
+
+	<sql id="allField">
+		id,user_id,auth_id
+    </sql>
+    <sql id="allProperties">
+    				#{id},
+					#{userId},
+					#{authId},
+		    </sql>
+    
+    <sql id="tableName">
+      t_wx_userauth
+    </sql>
+	<select id="getUserAuth" resultType="com.zlh.wx.dto.UserAuthDTO">
+		select * from <include refid="tableName"></include>  where id = #id 
+	</select>
+	
+	<select id="getUserAuthList" resultType="com.zlh.wx.dto.UserAuthDTO">
+		select * from <include refid="tableName"></include> 
+	</select>
+	
+	<delete id="delUserAuth">
+	    delete from <include refid="tableName"></include> where id = #id
+	</delete>
+	
+	<insert id="createUserAuth"  useGeneratedKeys="true" keyProperty="id">
+	  <selectKey keyProperty="id" resultType="int" order="AFTER"> 
+		SELECT @@IDENTITY AS id 
+	  </selectKey> 
+		insert into <include refid="tableName"></include>
+		(<include refid="allField"></include>)
+		 values
+		(<include refid="allProperties"></include>)
+	</insert>
+	<update id="updateUserAuth">
+	   update <include refid="tableName"></include> set 
+	<trim  suffixOverrides="," >
+	<if test="userId != null  ">
+		user_id=#{userId},
+	</if>
+	<if test="authId != null  ">
+		auth_id=#{authId},
+	</if>
+	</trim> where id=#{id}
+	</update>
+  	
+</mapper>   
